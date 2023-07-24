@@ -13,6 +13,8 @@ html {
 :root {
   --black: #000000;
   --white: #ffffff;
+  --teal: #CBE0E3;
+  --tan: #fffef8;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -365,4 +367,41 @@ textarea {
 ============= */
 /* =============
     Footer
+============= */
+/* =============
+    Index
+============= */
+/* =============
+    about
+============= */
+#about {
+  background-color: red;
+}
+
+/* =============
+    associations
+============= */
+/* =============
+    certifications
+============= */
+/* =============
+    contact
+============= */
+/* =============
+    Project Landing
+============= */
+/* =============
+   Project 1
+============= */
+/* =============
+    Project 2
+============= */
+/* =============
+    Project 3
+============= */
+/* =============
+    Resume
+============= */
+/* =============
+    Services
 ============= */
