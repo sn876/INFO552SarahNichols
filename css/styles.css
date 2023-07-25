@@ -333,9 +333,49 @@ template {
 /* =============
     Base
 ============= */
+body {
+  background-color: #FFFEF8;
+}
+
+.content-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 16px auto 16px;
+  grid-template-columns: 16px auto 16px;
+      grid-template-areas: ". content .";
+}
+.content-grid .content-grid-item {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: content;
+}
+
+#section-id-footer .social-icons li a:link, #section-id-footer .social-icons li a:visited {
+  color: var(--black);
+  text-decoration: none;
+}
+#section-id-footer .social-icons li a:hover, #section-id-footer .social-icons li a:activate {
+  color: var(-- #CBE0E3);
+}
+
 /* =============
     Typography
 ============= */
+h1, h2, h3, h4 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 /* =============
     Buttons
 ============= */
@@ -374,10 +414,6 @@ textarea {
 /* =============
     about
 ============= */
-#about {
-  background-color: red;
-}
-
 /* =============
     associations
 ============= */
