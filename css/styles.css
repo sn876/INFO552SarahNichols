@@ -405,13 +405,33 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  padding: 24px 0;
+}
+
 /* =============
     Footer
 ============= */
 /* =============
     Index
 ============= */
-#sarah1 {
+#main-grid-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 16px auto 16px;
+  grid-template-columns: 16px auto 16px;
+      grid-template-areas: ". content .";
+}
+@media (min-width: 1440px) {
+  #main-grid-content {
+    -ms-grid-columns: auto 1440 auto;
+    grid-template-columns: auto 1440 auto;
+  }
+}
+#main-grid-content #main-grid-item {
+  grid-area: index-content;
+}
+#main-grid-content #main-grid-item #sarah1 {
   max-width: 100%;
 }
 
