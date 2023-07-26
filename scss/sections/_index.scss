@@ -7,8 +7,12 @@
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". content .";
 
+    @include xxl{
+        grid-template-columns: auto 1440 auto;
+    }
+
     #main-grid-item{
-        grid-area-index-content;
+        grid-area: index-content;
         #sarah1{
             max-width: 100%;
     }
