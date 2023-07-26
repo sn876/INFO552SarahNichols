@@ -415,6 +415,13 @@ header {
 /* =============
     Index
 ============= */
+#index-right h1 {
+  padding-bottom: 24px;
+}
+#index-right p {
+  padding-bottom: 24px;
+}
+
 #main-grid-content {
   display: -ms-grid;
   display: grid;
