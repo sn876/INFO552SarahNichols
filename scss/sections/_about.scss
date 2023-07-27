@@ -2,3 +2,48 @@
     about
 ============= */
 
+#index-right {
+    h1 {
+      padding-bottom: 10px;
+    }
+    h3 {
+      padding-bottom: 10px;
+    }
+  }
+  
+  #main-grid-content {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". content .";
+  
+    @include xxl {
+      grid-template-columns: auto 1440 auto;
+    }
+  
+    #main-grid-item {
+      grid-area: index-content;
+      #kayak {
+        max-width: 100%;
+      }
+    }
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    max-width: 1200px;
+    background-color: #CBE0E3;
+  }
+  
+  .image-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 5px;
+    justify-self: start; 
+  }
+  
+  .text-container {
+    justify-self: start; 
+    align-self: center; 
+  }
+  

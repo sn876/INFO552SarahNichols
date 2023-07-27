@@ -6,8 +6,8 @@ header {
 }
 
 .horizontal-list {
-  list-style: none; /* Remove default list styles */
-  display: flex; /* Make the list items display horizontally */
+  list-style: none; 
+  display: flex; 
 }
 
 .horizontal-list li {
@@ -15,25 +15,22 @@ header {
 }
 
 a:link {
-  color: #2c474b; /* Set the color for unvisited links */
-  text-decoration: none; /* Remove underline from links */
+  color: #2c474b; 
+  text-decoration: none; 
 }
 
-/* Styling visited links */
 a:visited {
-  color: #535c5e; /* Set the color for visited links */
-  text-decoration: none; /* Remove underline from links */
+  color: #535c5e; 
+  text-decoration: none; 
 }
 
-/* Styling links on hover */
 a:hover {
-  color: #0a8ea0; /* Set the color for links on hover */
-  text-decoration: underline; /* Add underline on hover */
+  color: #0a8ea0; 
+  text-decoration: underline; 
 }
 
-/* Styling active links (when clicked) */
 a:active {
-  color: #8cad55; /* Set the color for active links */
+  color: #8cad55; 
   text-decoration: none;
 }
 
