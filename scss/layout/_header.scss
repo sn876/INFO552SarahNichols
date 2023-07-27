@@ -1,15 +1,38 @@
 /* =============
     Header
 ============= */
-header{
-    padding: 24px 0
+header {
+  padding: 24px 0;
 }
 
 .horizontal-list {
-    list-style: none; /* Remove default list styles */
-    display: flex; /* Make the list items display horizontally */
-  }
-  
-  .horizontal-list li {
-    margin-right: 10px;
-  }
+  list-style: none; /* Remove default list styles */
+  display: flex; /* Make the list items display horizontally */
+}
+
+.horizontal-list li {
+  margin-right: 10px;
+}
+
+a:link {
+  color: #2c474b; /* Set the color for unvisited links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Styling visited links */
+a:visited {
+  color: #535c5e; /* Set the color for visited links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Styling links on hover */
+a:hover {
+  color: #0a8ea0; /* Set the color for links on hover */
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Styling active links (when clicked) */
+a:active {
+  color: #8cad55; /* Set the color for active links */
+  text-decoration: none;
+}

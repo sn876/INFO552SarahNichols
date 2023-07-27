@@ -334,7 +334,7 @@ template {
     Base
 ============= */
 body {
-  background-color: #FFFEF8;
+  background-color: #fffef8;
 }
 
 .content-grid {
@@ -350,36 +350,16 @@ body {
   grid-area: content;
 }
 
-#section-id-footer .social-icons li a:link, #section-id-footer .social-icons li a:visited {
+#section-id-footer .social-icons li a:link,
+#section-id-footer .social-icons li a:visited {
   color: var(--black);
   text-decoration: none;
 }
-#section-id-footer .social-icons li a:hover, #section-id-footer .social-icons li a:activate {
+#section-id-footer .social-icons li a:hover,
+#section-id-footer .social-icons li a:activate {
   color: var(-- #CBE0E3);
 }
 
-a:link {
-  color: #2c474b; /* Set the color for unvisited links */
-  text-decoration: none; /* Remove underline from links */
-}
-
-/* Styling visited links */
-a:visited {
-  color: #535c5e; /* Set the color for visited links */
-  text-decoration: none; /* Remove underline from links */
-}
-
-/* Styling links on hover */
-a:hover {
-  color: #0a8ea0; /* Set the color for links on hover */
-  text-decoration: underline; /* Add underline on hover */
-}
-
-/* Styling active links (when clicked) */
-a:active {
-  color: #8cad55; /* Set the color for active links */
-  text-decoration: none;
-}
 /* =============
     Typography
 ============= */
@@ -442,6 +422,29 @@ header {
   margin-right: 10px;
 }
 
+a:link {
+  color: #2c474b; /* Set the color for unvisited links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Styling visited links */
+a:visited {
+  color: #535c5e; /* Set the color for visited links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Styling links on hover */
+a:hover {
+  color: #0a8ea0; /* Set the color for links on hover */
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Styling active links (when clicked) */
+a:active {
+  color: #8cad55; /* Set the color for active links */
+  text-decoration: none;
+}
+
 /* =============
     Footer
 ============= */
@@ -476,22 +479,30 @@ header {
 }
 
 .grid-container {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: auto 1fr; 
+  -ms-grid-columns: auto 1fr;
+  grid-template-columns: auto 1fr;
   max-width: 1200px;
   background-color: #CBE0E3;
 }
 
 .image-container {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: auto 5px 1fr;
   grid-template-columns: auto 1fr;
   gap: 5px;
-  justify-self: start; 
+  -ms-grid-column-align: start;
+      justify-self: start;
 }
 
 .text-container {
-  justify-self: start; 
-  align-self: center; 
+  -ms-grid-column-align: start;
+      justify-self: start;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 /* =============
@@ -524,3 +535,32 @@ header {
 /* =============
     Services
 ============= */
+#index-right h1 {
+  padding-bottom: 10px;
+}
+
+#index-right h3 {
+  padding-bottom: 10px;
+}
+
+#main-grid-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 16px auto 16px;
+  grid-template-columns: 16px auto 16px;
+      grid-template-areas: ". content .";
+}
+
+@media (min-width: 1440px) {
+  #main-grid-content {
+    -ms-grid-columns: auto 1440 auto;
+    grid-template-columns: auto 1440 auto;
+  }
+}
+#main-grid-content #main-grid-item {
+  grid-area: index-content;
+}
+
+#main-grid-content #main-grid-item #sarah1 {
+  max-width: 100%;
+}
