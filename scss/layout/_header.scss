@@ -4,3 +4,12 @@
 header{
     padding: 24px 0
 }
+
+.horizontal-list {
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Make the list items display horizontally */
+  }
+  
+  .horizontal-list li {
+    margin-right: 10px;
+  }

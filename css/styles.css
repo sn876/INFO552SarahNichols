@@ -358,6 +358,28 @@ body {
   color: var(-- #CBE0E3);
 }
 
+a:link {
+  color: #2c474b; /* Set the color for unvisited links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Styling visited links */
+a:visited {
+  color: #535c5e; /* Set the color for visited links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Styling links on hover */
+a:hover {
+  color: #0a8ea0; /* Set the color for links on hover */
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Styling active links (when clicked) */
+a:active {
+  color: #8cad55; /* Set the color for active links */
+  text-decoration: none;
+}
 /* =============
     Typography
 ============= */
@@ -409,6 +431,17 @@ header {
   padding: 24px 0;
 }
 
+.horizontal-list {
+  list-style: none; /* Remove default list styles */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; /* Make the list items display horizontally */
+}
+
+.horizontal-list li {
+  margin-right: 10px;
+}
+
 /* =============
     Footer
 ============= */
@@ -440,6 +473,25 @@ header {
 }
 #main-grid-content #main-grid-item #sarah1 {
   max-width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 1fr; 
+  max-width: 1200px;
+  background-color: #CBE0E3;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 5px;
+  justify-self: start; 
+}
+
+.text-container {
+  justify-self: start; 
+  align-self: center; 
 }
 
 /* =============
