@@ -1,32 +1,33 @@
 /* =============
     Base
 ============= */
-body{
-    background-color: #FFFEF8
+body {
+  background-color: #fffef8;
 }
 
- .content-grid{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". content .";
+.content-grid {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". content .";
 
-    .content-grid-item{        
-        grid-area: content;
+  .content-grid-item {
+    grid-area: content;
+  }
+}
 
+#section-id-footer {
+  .social-icons {
+    li {
+      //love // hate
+      a:link,
+      a:visited {
+        color: var(--black);
+        text-decoration: none;
+      }
+      a:hover,
+      a:activate {
+        color: var(--#CBE0E3);
+      }
     }
- }
-
- #section-id-footer{
-    .social-icons{
-       li{
-        //love // hate
-        a:link, a:visited{
-            color: var(--black);
-            text-decoration: none;
-        }
-        a:hover, a:activate{
-            color: var(--#CBE0E3)
-        }
-       } 
-    }
- }
+  }
+}
