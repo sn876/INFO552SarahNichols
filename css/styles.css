@@ -445,6 +445,10 @@ a:active {
   text-decoration: none;
 }
 
+a {
+  padding-right: 5px;
+}
+
 /* =============
     Footer
 ============= */
