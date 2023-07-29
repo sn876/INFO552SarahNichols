@@ -2,7 +2,17 @@
     Header
 ============= */
 header {
-  padding: 24px 0;
+  padding: 0;
+  background: #fffef8; 
+
+  h1 {
+    margin: 0;
+
+    img {
+      padding: 10px 0 0 10px;
+      margin-bottom: -25px;
+    }
+  }
 }
 
 .horizontal-list {
@@ -37,3 +47,4 @@ a:active {
 a {
   padding-right: 5px;
 }
+
