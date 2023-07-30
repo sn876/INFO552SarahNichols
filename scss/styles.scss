@@ -73,6 +73,7 @@
     background-color: #cbe0e3;
   }
 
+  //desktop view//
   .grid-container {
     background-color: #fffef8;
     display: flex;
@@ -80,15 +81,6 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-  }
-
-  .image-container img {
-    width: 400px;
-  }
-
-  .text-container {
-    margin: 40px;
-    text-align: left;
   }
 
   footer {
@@ -113,4 +105,3 @@
     height: auto; 
     border-radius: 50%; 
   }
-  
