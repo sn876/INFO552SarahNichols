@@ -828,6 +828,97 @@ a {
 /* =============
     Project Landing
 ============= */
+.learn-more-link {
+  font-size: 25px;
+}
+
+.header-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 15;
+}
+
+body {
+  background-color: #fffef8;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 10px 1fr 10px 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 20px;
+}
+
+.box {
+  background-color: #ffffff;
+  padding: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.box img {
+  max-width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container a:link {
+  color: #2c474b;
+  text-decoration: none;
+}
+.container a:visited {
+  color: #535c5e;
+  text-decoration: none;
+}
+.container a:hover {
+  background-color: #67969c;
+  text-decoration: underline;
+  border: 1px solid #808e9c;
+}
+.container a:active {
+  color: #8cad55;
+  text-decoration: none;
+}
+.container a {
+  padding-right: 5px;
+}
+
+.navbar-links a:link {
+  color: #2c474b;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #535c5e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0a8ea0;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #8cad55;
+  text-decoration: none;
+}
+
+a {
+  padding-right: 5px;
+}
+
 /* =============
    Project 1
 ============= */
