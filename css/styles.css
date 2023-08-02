@@ -763,8 +763,30 @@ body {
   display: grid;
   -ms-grid-columns: 1fr 10px 1fr;
   grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: 1fr 10px 1fr;
+  grid-template-rows: repeat(2, 1fr);
   gap: 10px;
   margin: 20px;
+}
+
+.container > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.container > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+.container > *:nth-child(3) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+
+.container > *:nth-child(4) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
 }
 
 .box {
