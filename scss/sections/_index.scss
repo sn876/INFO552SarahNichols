@@ -19,25 +19,6 @@
   }
 }
 
-header {
-  padding: 0;
-  background: #fffef8;
-  display: flex; 
-  justify-content: space-between; 
-  align-items: center; 
-}
-
-
-.horizontal-list {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-.horizontal-list li {
-  margin-right: 10px;
-}
 
 /* Styles for the links */
 a:link,
