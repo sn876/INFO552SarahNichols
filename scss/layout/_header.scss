@@ -3,8 +3,11 @@
 ============= */
 header {
   padding: 0;
-  background: #fffef8; 
-
+  background: #fffef8;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
   h1 {
     margin: 0;
 
@@ -13,7 +16,6 @@ header {
       margin-bottom: -25px;
     }
   }
-}
 
 .horizontal-list {
   list-style: none; 
