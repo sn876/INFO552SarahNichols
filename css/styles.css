@@ -871,11 +871,9 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.container {
-  display: -ms-grid;
-  display: grid;
-  gap: 10px;
-  margin: 20px;
+.proj-container {
+  -ms-grid-columns: (1fr)[3];
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .box {

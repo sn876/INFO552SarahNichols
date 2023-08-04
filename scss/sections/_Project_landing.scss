@@ -24,10 +24,8 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.container {
-  display: grid;
-  gap: 10px;
-  margin: 20px;
+.proj-container {
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .box {
