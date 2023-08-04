@@ -21,6 +21,12 @@
     max-width: 600px;
     margin: 0 auto;
   }
+
+  .image-container-resume {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+  }
   
   .resume-item {
     margin-bottom: 10px;
