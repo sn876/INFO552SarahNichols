@@ -690,6 +690,8 @@ p {
   gap: 5px;
   -ms-grid-column-align: start;
       justify-self: start;
+  width: 700px;
+  height: auto;
 }
 
 .text-container {
