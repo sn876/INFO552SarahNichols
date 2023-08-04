@@ -21,10 +21,7 @@ body {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  margin: 20px;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .box {

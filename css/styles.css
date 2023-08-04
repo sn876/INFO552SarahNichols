@@ -337,6 +337,19 @@ body {
   background-color: #fffef8;
 }
 
+header {
+  height: 122.5px;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 10px 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 20px;
+}
+
 .content-grid {
   display: -ms-grid;
   display: grid;
@@ -770,12 +783,8 @@ body {
 }
 
 .container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 10px 1fr;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  margin: 20px;
+  -ms-grid-columns: (1fr)[3];
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .box {
@@ -865,8 +874,6 @@ body {
 .container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 10px 1fr 10px 1fr;
-  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   margin: 20px;
 }
