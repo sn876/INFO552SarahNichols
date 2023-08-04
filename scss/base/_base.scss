@@ -18,12 +18,16 @@ body {
 #section-id-footer {
   .social-icons {
     li {
+      display: inline-block;
+      margin-right: 10px;
+    
       //love // hate
       a:link,
       a:visited {
         color: var(--black);
         text-decoration: none;
       }
+      
       a:hover,
       a:activate {
         color: var(--#CBE0E3);

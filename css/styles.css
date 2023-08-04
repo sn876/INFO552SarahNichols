@@ -350,6 +350,10 @@ body {
   grid-area: content;
 }
 
+#section-id-footer .social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
 #section-id-footer .social-icons li a:link,
 #section-id-footer .social-icons li a:visited {
   color: var(--black);
@@ -404,6 +408,12 @@ textarea {
 /* =============
     Navigation
 ============= */
+nav {
+  padding-right: 15px;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* =============
     Header
 ============= */
