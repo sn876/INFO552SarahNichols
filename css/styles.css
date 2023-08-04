@@ -383,16 +383,19 @@ header {
 h1, h2, h3, h4 {
   padding: 0;
   margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p {
   padding: 0;
   margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 ul {
   padding: 0;
   margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* =============
@@ -557,7 +560,7 @@ a {
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 500px;
   line-height: 1.8em;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -644,13 +647,6 @@ p {
   font-size: 15px;
   line-height: 1.8em;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#index-right h1 {
-  padding-bottom: 10px;
-}
-#index-right h3 {
-  padding-bottom: 10px;
 }
 
 #main-grid-content {
@@ -785,7 +781,7 @@ body {
 }
 
 .assoc-container {
-  -ms-grid-columns: (1fr)[2];
+  -ms-grid-columns: (1fr)(2);
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -874,7 +870,7 @@ body {
 }
 
 .proj-container {
-  -ms-grid-columns: (1fr)[3];
+  -ms-grid-columns: (1fr)(3);
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -1209,7 +1205,7 @@ body {
 }
 
 .proj-container {
-  -ms-grid-columns: (1fr)[3];
+  -ms-grid-columns: (1fr)(3);
   grid-template-columns: repeat(3, 1fr);
 }
 
