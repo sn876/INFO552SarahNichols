@@ -776,12 +776,12 @@ h1 {
 }
 
 h2 {
-  font-size: 15;
+  font-size: 15px;
 }
 
 body {
   background-color: #fffef8;
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .assoc-container {
