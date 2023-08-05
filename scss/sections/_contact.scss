@@ -1,3 +1,9 @@
 /* =============
     contact
 ============= */
+.grid-container-contact {
+    display: grid;
+    grid-template-columns: auto; 
+    max-width: 1200px;
+    background-color: #CBE0E3;
+  }

@@ -1,55 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://kit.fontawesome.com/9e6bb940c0.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/9e6bb940c0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Portfolio</title>
-</head>
 
-<body>
-    
+  </head>
+  <body>
     <header>
-        <h1><img src="Images/Logo3-Trimmed.png" alt="logo" id=logo style="width: 120px; height: 89px;"></h1>
-        </h1>
-        <nav>
-          
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="resume.html">Resume</a>
-            <a href="associations.html">Associations</a>
-            <a href="project_landing.html">Projects</a>
-            <a href="services.html"> Services</a>
-            <a href="contact.html">Contact</a>
-          </ul>
-        </nav>
-      </header>
-<main>
+          <h1><img src="Images/Logo3-Trimmed.png" alt="logo" id=logo ></h1>
+          <nav>
+            <ul class="horizontal-list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="resume.html">Resume</a></li>
+              <li><a href="associations.html">Associations</a></li>
+              <li><a href="project_landing.html">Projects</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
 
-<h1>Contact Me</h1>
+        <style>
+            .grid-container-contact {
+              background-color: #fffef8;
+              display: grid; 
+              grid-template-columns: 1fr; 
+              justify-items: center; 
+              align-items: center; 
+              padding: 20px;
+            }
+          </style>
+        <main>
+            <div class="grid-container-contact">
+              <h3>Let's Chat!</h3>
+              <h2>I would love to talk about your project</h2>
+              <p><a href="mailto:sarahmnichols2@gmail.com"><u>Email</u></a>me and I will be in touch!</p>
+            </div>
+          </main>
+<footer>
+    <section id="footer">
+      <ul class="social-icons">
+        <li><a href="https://www.linkedin.com/in/sarah-nichols-b94ba611b/"><i class="fab fa-linkedin"></i></a></li>
+           <li><a href="mailto:sarahmnichols2@gmail.com"><i class="fas fa-envelope"></i></a></li>
+     </ul>
+      <p>© Sarah Nichols 2023.</p>
+    </section>
+    <section>
+      <a href="https://validator.w3.org/nu/?doc=https://portfolio--snicholsinfo552.netlify.app/" target="_blank">
+      <img src="Images/html-logo.svg" alt="Valid HTML 5">
+      </a>
+      </section>
+  </footer>
 
-</main>
 
 <script src="js/scripts-dist.js"></script>
-
-
-<footer> 
-    <section>
-    <img src="Images/Logo3.JPG" alt="logo">
-    
-    <ul>
-        <li><a href="https://www.linkedin.com/in/sarah-nichols-b94ba611b/"><i class="fab fa-linkedin"></i></a></li>
-        <li><a href="mailto:sarahmnichols2@gmail.com"><i class="fas fa-envelope"></i></a></li>
-    </ul>
-            
-            <p> © Sarah Nichols 2023. </p>
-        </section>
-    </footer>
-
-
-    <script src="js/scripts-dist.js"></script>
-    
 </body>
 </html>

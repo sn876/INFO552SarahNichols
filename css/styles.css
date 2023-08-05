@@ -383,19 +383,16 @@ header {
 h1, h2, h3, h4 {
   padding: 0;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p {
   padding: 0;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 ul {
   padding: 0;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* =============
@@ -781,7 +778,7 @@ body {
 }
 
 .assoc-container {
-  -ms-grid-columns: (1fr)(2);
+  -ms-grid-columns: (1fr)[2];
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -843,6 +840,15 @@ a {
 /* =============
     contact
 ============= */
+.grid-container-contact {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+  grid-template-columns: auto;
+  max-width: 1200px;
+  background-color: #CBE0E3;
+}
+
 /* =============
     Project Landing
 ============= */
@@ -870,7 +876,7 @@ body {
 }
 
 .proj-container {
-  -ms-grid-columns: (1fr)(3);
+  -ms-grid-columns: (1fr)[3];
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -1205,7 +1211,7 @@ body {
 }
 
 .proj-container {
-  -ms-grid-columns: (1fr)(3);
+  -ms-grid-columns: (1fr)[3];
   grid-template-columns: repeat(3, 1fr);
 }
 
